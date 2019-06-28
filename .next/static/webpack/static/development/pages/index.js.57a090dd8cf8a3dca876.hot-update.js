@@ -38,7 +38,7 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(App, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, "Hello world");
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, "Hello World");
     }
   }]);
 
@@ -50,4 +50,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.fa15762b9466dcad5a2b.hot-update.js.map
+//# sourceMappingURL=index.js.57a090dd8cf8a3dca876.hot-update.js.map

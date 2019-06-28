@@ -8,16 +8,14 @@ const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 
 // Require keystone
-var keystone = require("keystone");
+const keystone = require("keystone");
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
 // and documentation.
-
 keystone.init({
-	name: "Blog Website",
-	brand: "Blog Website",
-
+	name: "Keystone Next Example",
+	brand: "Keystone Next Example",
 	"auto update": true,
 	session: true,
 	auth: true,
@@ -27,6 +25,7 @@ keystone.init({
 // Load your project's Models
 keystone.import("models");
 
+// Start Next app
 app.prepare().then(() => {
 	// Load your project's Routes
 	keystone.set("routes", require("./routes")(app));
@@ -34,8 +33,6 @@ app.prepare().then(() => {
 	// Configure the navigation bar in Keystone's Admin UI
 	keystone.set("nav", {
 		posts: ["posts", "post-categories"],
-		// galleries: "galleries",
-		// enquiries: "enquiries",
 		users: "users"
 	});
 
