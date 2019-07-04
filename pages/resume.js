@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Layout from "../components/layout";
 
-class About extends Component {
+class Resume extends Component {
 	render() {
 		return (
 			<div>
@@ -14,13 +14,11 @@ class About extends Component {
 					`}
 				</style>
 				<Layout>
-					<h1>
-						This will be an about me page where I talk about how good I am
-					</h1>
+					<h1>This will be where my resume will go</h1>
 				</Layout>
 			</div>
 		);
 	}
 }
 
-export default About;
+export default Resume;

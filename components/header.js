@@ -20,22 +20,29 @@ class Header extends Component {
 						}
 						.menu-item {
 							padding: 10px;
+							color: inherit;
 						}
 					`}
 				</style>
 				<div className="header">
 					<ul className="menu-wrapper">
 						<li>
-							<a className="menu-item">Contact</a>
+							<Link href="contact-form">
+								<a className="menu-item">Contact</a>
+							</Link>
 						</li>
 						<li>
-							<a className="menu-item">Resume</a>
+							<Link href="/resume">
+								<a className="menu-item">Resume</a>
+							</Link>
 						</li>
 						<li>
-							<a className="menu-item">Fishroom</a>
+							<Link href="/fish-room">
+								<a className="menu-item">Fishroom</a>
+							</Link>
 						</li>
 						<li>
-							<Link href="/blog-list">
+							<Link href="/tech-blog">
 								<a className="menu-item">Tech Blog</a>
 							</Link>
 						</li>
