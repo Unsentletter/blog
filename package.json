@@ -21,6 +21,6 @@
   "scripts": {
     "lint": "eslint .",
     "build": "next build",
-    "start": "next start -p $PORT && node keystone.js"
+    "start": "next build && next start -p $PORT && node keystone.js"
   }
 }
