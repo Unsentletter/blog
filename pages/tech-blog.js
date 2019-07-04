@@ -14,7 +14,10 @@ class TechBlog extends Component {
 					`}
 				</style>
 				<Layout>
-					<h1>This will be where my tech blog will be</h1>
+					<h1>
+						This will be where my tech blog will be Changing some text to test
+						Travis
+					</h1>
 				</Layout>
 			</div>
 		);
