@@ -9,6 +9,8 @@ class About extends Component {
 					{`
 						.header {
 						}
+						.test {
+						}
 					`}
 				</style>
 				<Layout>
