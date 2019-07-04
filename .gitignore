@@ -31,4 +31,4 @@ node_modules
 .DS_Store
 
 # ignore the ridiculous amount of Next.js files
-# .next
+.next
