@@ -7,14 +7,16 @@ class Resume extends Component {
 			<div>
 				<style jsx>
 					{`
-						.header {
-						}
-						.test {
+						.body {
+							height: 100vh;
+							background-color: #f5f5f5;
 						}
 					`}
 				</style>
 				<Layout>
-					<h1>This will be where my resume will go</h1>
+					<div className="body">
+						<h1>This will be where my resume will go</h1>
+					</div>
 				</Layout>
 			</div>
 		);
