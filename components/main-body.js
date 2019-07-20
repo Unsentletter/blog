@@ -7,16 +7,18 @@ class MainBody extends Component {
 				<style jsx>
 					{`
 						.body {
-							display: flex;
-							flex-direction: column;
-							height: 100%;
-							align-items: center;
-							justify-content: center;
 							height: 100vh;
-							margin-top: -100px;
+							background-color: #f5f5f5;
+							width: 100vw;
+							text-align: center;
+							margin-top: -80px;
 						}
 						.text-wrapper {
-							text-align: center;
+							position: absolute;
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							width: 80%;
 						}
 					`}
 				</style>
