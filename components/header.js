@@ -9,6 +9,10 @@ class Header extends Component {
 					{`
 						.header {
 							height: 80px;
+							background-color: #f5f5f5;
+							position: fixed;
+							top: 0;
+							width: 100%;
 						}
 						.menu-wrapper {
 							display: flex;

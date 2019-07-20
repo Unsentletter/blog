@@ -3,7 +3,7 @@ import Header from "./header";
 const Layout = props => (
 	<div>
 		<Header />
-		{props.children}
+		<div style={{ "padding-top": 80 }}>{props.children}</div>
 	</div>
 );
 
