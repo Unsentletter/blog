@@ -22,7 +22,19 @@ export default class MyDocument extends Document {
 						integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
 						crossOrigin="anonymous"
 					/>
+					<link
+						rel="stylesheet"
+						type="text/css"
+						href="//fonts.googleapis.com/css?family=EB+Garamond"
+					/>
 				</Head>
+				<style jsx global>{`
+					body {
+						background: #000;
+						font-family: garamond;
+						font-size: 20px;
+					}
+				`}</style>
 				<body>
 					<Main />
 					<script
