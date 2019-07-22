@@ -25,7 +25,7 @@ class Header extends Component {
 						.menu-item {
 							padding: 10px;
 							color: inherit;
-							font-size: 28px;
+							font-size: 22px;
 						}
 					`}
 				</style>

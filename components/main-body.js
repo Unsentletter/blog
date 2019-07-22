@@ -20,6 +20,13 @@ class MainBody extends Component {
 							transform: translate(-50%, -50%);
 							width: 80%;
 						}
+						h1 {
+							text-weight: 500;
+							font-size: 50px;
+						}
+						h4 {
+							font-size: 30px;
+						}
 					`}
 				</style>
 				<div className="body">
